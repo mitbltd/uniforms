@@ -1,0 +1,21 @@
+@import 'src/variables';
+
+.header {
+  display: flex;
+  background-color: $header-color;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  alignment-baseline: after-edge;
+  height: 72px;
+}
+
+.header > img {
+  height: 70px;
+  padding-right: 20px;
+}
+
+.header > div {
+  text-align: end;
+}
