@@ -1,0 +1,31 @@
+@import "src/variables";
+
+.shopComponent {
+  display: flex;
+  flex-direction: column;
+}
+
+.leftFilter{
+  align-self:flex-start;
+}
+
+.mainArea{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.mainContent
+{
+  display: inline-flex;
+  flex-direction: column;
+}
+.footer{
+  align-self: flex-end;
+  width: 100%;
+}
+
+.iconsMakeMeHappy {
+  font-size: 5px;
+  visibility: hidden;
+}

@@ -1,0 +1,128 @@
+@import "src/variables";
+
+.filterContainer
+{
+  display: flex;
+  float:left;
+  margin-top:0.1em;
+  padding-bottom:0.1em;
+}
+
+.filterContainer ul
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.filterContainer li
+  /* horizontal menu layout */
+{
+  display: inline-block;
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  margin-right:5px;
+  background-color: #4180dd;
+}
+
+.filterContainer li a:hover
+  /* link style on-mouse-over */
+{
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.filterContainer li:hover
+  /* button style on-mouse-over */
+{
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #dd417f;
+}
+.filterContainer li a
+  /* link style */
+{
+  color:#FFFFFF;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.7em 1em 0.7em 1em;
+}
+.filterContainer li.active a
+  /* active menu item style */
+{
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.filterContainer li.active
+  /* active menu button style */
+{
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #dd417f;
+}
+
+.filterContainerVertical
+{
+  float:left;
+  margin-top:0.1em;
+  padding-bottom:0.1em;
+}
+
+.filterContainerVertical ul
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.filterContainerVertical li
+  /* vertical menu layout */
+{
+  display: inline-flex;
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  margin-right:5px;
+  background-color: #4180dd;
+}
+
+.filterContainerVertical li a:hover
+  /* link style on-mouse-over */
+{
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.filterContainerVertical li:hover
+  /* button style on-mouse-over */
+{
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #dd417f;
+}
+.filterContainerVertical li a
+  /* link style */
+{
+  color:#FFFFFF;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.7em 1em 0.7em 1em;
+}
+.filterContainerVertical li.active a
+  /* active menu item style */
+{
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.filterContainerVertical li.active
+  /* active menu button style */
+{
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #dd417f;
+}
+
+

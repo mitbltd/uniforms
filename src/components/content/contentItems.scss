@@ -1,0 +1,65 @@
+@import "src/variables";
+
+.contentItems
+{
+  display: flex;
+  float:left;
+  margin-top:0.1em;
+  padding-bottom:0.1em;
+}
+
+.contentItems ul
+{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.contentItems li
+  /* horizontal menu layout */
+{
+  display: inline-block;
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  margin-right:5px;
+  background-color: transparent;
+}
+
+.contentItems li a:hover
+  /* link style on-mouse-over */
+{
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.contentItems li:hover
+  /* button style on-mouse-over */
+{
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #f0f0f9;
+}
+.contentItems li a
+  /* link style */
+{
+  color:#FFFFFF;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.7em 1em 0.7em 1em;
+}
+.contentItems li.active a
+  /* active menu item style */
+{
+  color:#FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.contentItems li.active
+  /* active menu button style */
+{
+  border: 3px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: #dd417f;
+}

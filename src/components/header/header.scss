@@ -8,12 +8,13 @@
   align-items: center;
   justify-content: flex-start;
   alignment-baseline: after-edge;
-  height: 72px;
+  height: 80px;
+  padding: 5px;
 }
 
 .header > img {
   height: 70px;
-  padding-right: 20px;
+  margin: 10px;
 }
 
 .header > div {
